@@ -1,0 +1,33 @@
+body {
+	background-color: gray;
+	background-image: url("abuu.jpeg")
+}
+.container {
+	margin-top: 20px;
+	width: 99%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 900px;
+	border: 2px black solid;
+	background-color: white;
+	background-image: url("abu.jpg");
+	background-position: center;
+}
+nav {
+	font-size: 20px;
+	text-align: center;
+	height: 20%;
+	
+	
+}
+.box{
+	background-color: blue;
+	color: white;
+	display: inline;
+	width: 10px;
+	border: 1px solid;
+	border: 1px solid black;
+	height: 200px;
+
+	
+}
