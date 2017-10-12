@@ -1,7 +1,9 @@
 body {
 	text-align: center;
-	background-color: lightBlue;
+	background-color: rebeccaPurple;
 }
 img {
 	border-radius: 100%;
+	width: 500px;
+	height: 750px;
 }

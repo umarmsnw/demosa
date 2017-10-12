@@ -1,5 +1,5 @@
 body {
-	background-color: gray;
+	background-color: Gainsboro;
 	background-image: url("abuu.jpeg")
 }
 .container {
@@ -12,6 +12,7 @@ body {
 	background-color: white;
 	background-image: url("abu.jpg");
 	background-position: center;
+	border-radius: 50px;
 }
 nav {
 	font-size: 20px;
@@ -19,14 +20,18 @@ nav {
 	height: 20%;
 	
 	
+	
 }
 .box{
-	background-color: blue;
+	border-radius: 30px;
+	background-color: RoyalBlue;
+	padding: 5px;
 	color: white;
 	display: inline;
 	width: 10px;
 	border: 1px solid;
 	border: 1px solid black;
+	border-color:blue;
 	height: 200px;
 
 	
