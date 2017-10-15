@@ -7,6 +7,7 @@ body {
 	background-color: Gainsboro;
 	background-image: url("abuu.jpeg")
 }
+
 .header {
 	width: 100%;
 	height: 160px;
@@ -31,6 +32,7 @@ li>a{
 	text-align: center;
 	text-decoration: none;
 }
+ 
 .logo{
 	width: 90px;
 	height: 80px;
@@ -57,6 +59,8 @@ li>a:hover, li>a:focus{
 	background-color: navy;
 }
 .contact{
+	position: relative;
+	bottom:0px;
 	width: 100%;
 	height: 300px;
 	background-color: MidnightBlue;
@@ -65,7 +69,6 @@ li>a:hover, li>a:focus{
 	width: 49.8%;
 	height: 250px;
 	float: left;
-	border: 1px solid black;
 	padding-top: 50px;
 	font-size: 20px;
 	text-shadow: 1px 0px 10px 0px;
@@ -76,7 +79,6 @@ li>a:hover, li>a:focus{
 .social {
 	width: 49.8%;
 	height: 250px;
-	border: 1px solid black;
 	float: right;
 	padding-top: 50px;
 	font-size: 20px;
@@ -89,12 +91,111 @@ li {
 	list-style: none;
 }
 .copyright{
-	margin-bottom: 0px;
+	position: relative;
+	bottom: 0px;
 	width: 100%;
 	height: 30px;
-	border: 1px solid black;
 	background-color: darkBlue;
 	text-align: center;
 	color: white;
 	padding-top: 20px;
+}
+@media screen and (max-width:1114px){
+.navigation{
+	width: 800px;
+	height: 80px;
+}
+.list {
+	margin-left: 75px;
+	list-style: none;
+	width:80px;
+}
+
+.logo>img {
+	width: 90px;
+	height: 77px;
+	float: left;
+}
+}
+
+@media screen and (max-width:715px){
+.header {
+	position: absolute;
+	top: 70px;
+	width: 100%;
+	height: 160px;
+	margin-left:0px;
+	background-color:dodgerBlue;
+	}
+.navigation{
+	width: 80%;
+	height: 50px;
+	border-top: 1px solid gray;
+	position:relative;
+	margin-right: 250px;
+}
+.list {
+	float: none;
+	list-style: none;
+	width:100%;;
+	background-color:dodgerBlue;
+}
+li>a{
+	display: block;
+	color: white;
+	line-height: 80px;
+	text-align: center;
+	text-decoration: none;
+}
+.logo{
+	width: 0px;
+	height:0px;
+}
+.logo>img {
+	margin-top: -70px;
+	width: 90px;
+	height: 65px;
+	float: center;
+	margin-left: 250px;
+}
+.title {
+	
+	width: 80%;
+	height: 50px;
+	margin-top: 2px;
+	margin-left: 50px;
+	padding-top:50px;
+	font-size: 33px;
+	text-shadow: 1px 0px 10px 0px;
+	font-family: Blippo, fantasy;
+	color: PowderBlue;
+}
+.contact{
+	position: relative;
+	top:1000px;
+	width: 100%;
+	height: 250px;
+background-color: MidnightBlue;
+}
+.copyright{
+	position: relative;
+	top: 1000px;
+	bottom: 0px;
+	width: 100%;
+	height: 30px;
+	background-color: darkBlue;
+	text-align: center;
+	color: white;
+padding-top: 20px;
+}
+.cont{
+	font-size: 15px;
+	padding-top: 10px;
+}
+.social {
+	
+	font-size: 15px;
+	padding-top: 10px;
+}
+
 }
